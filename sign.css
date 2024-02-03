@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: monospace;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	height: 100vh;
+	background-color: rgb(190, 190, 190);
+}
+.container{
+/* margin-top: 20vh; */
+	background-color: rgb(255, 255, 255);
+ width: 300px;
+}
+h1{
+	text-align: center;
+	margin-top: 2rem;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+input[type="text"], input[type="password"], input[type="email"]{
+	padding: 12px 16px;
+	width: 80%;
+	margin-left: 25px;
+	margin-bottom: 20px;
+	outline: none;
+	display: block;
+	border: none;
+	border-bottom: 2px solid rgb(225, 54, 54);
+}
+label{
+	margin-left: 25px;
+	font-weight: bold;
+}
+input[type="checkbox"]{
+	margin-top:0;
+	margin-left: 25px;
+	
+}
+a{
+	color: red;
+	font-size: 12px;
+}
+
+button[type="submit"]{
+	margin-top: 20px;
+	margin-left: 25px;
+	width: 80%;
+	padding: 10px;
+	outline: none;
+	cursor: pointer;
+	border-radius: 30px;
+	background-color: #e22121;
+	border: none;
+	color: aliceblue;
+}
+
+.diff{
+	display: flex;
+	margin: 0;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+	width: 90%;
+	
+}
+.diff button:nth-child(2){
+	margin-left: 30px;
+	color: black;
+	background-color: rgb(252, 252, 252);
+	border: 1.5px solid rgb(20, 12, 12);;
+}
+.container2 {
+	background-color: rgb(27, 48, 66);
+	color: white;
+	margin-left: 5rem;
+	width: 300px;
+	font-family: 'Gill Sans', 'Trebuchet MS', sans-serif;
+}
+h4{
+	text-align: center;
+	margin-top: 2rem;
+}
